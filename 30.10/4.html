@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="./1.html">Задание 1</a></li>
+        <li><a href="./2.html">Задание 2</a></li>
+        <li><a>Задание 4</a></li>
+        
+
+    </ul>
+    <header>
+        <form action="/" method="POST">
+            User name: <br>
+                <input type="text" name="name" placeholder="Type your name" > <br> 
+            E-mail: <br>
+                <input type="email" name="email" placeholder="Type your e-mail"> <br> 
+            Password: <br>
+                <input type="password" name="password" placeholder="Type your password" minlength="6" required> 
+            <p> Sex: 
+                <input type="radio" name="sex" > Мale
+                <input type="radio" name="sex" > Female
+            </p>
+            <p> Age <br>
+                <input type="number" name="age" value="16" min="16">
+            </p>
+            <p> Married:
+                <input type="checkbox" name="Married"> Yes
+                <input type="checkbox" name="Married"> No
+                <input type="checkbox" name="Married"> Vsyo slozhno </p>
+            <p> Type your phone number: <br>
+                <input type="tel" placeholder="+38 (000) 000-00-00" pattern="\D38\s[0-9]{3}\s[0-9]{3}-[0-9]{2}-[0-9]{2}"></p>
+            <p> City: <br>
+                <select name="city">
+                    <option>Kharkiv</option>
+                    <option>Maybe Kharkiv</option>
+                    <option>Are you sure that not Kharkiv?</option>
+                </select> 
+            </p>
+            About: <br>
+                <textarea name="About you"  cols="30" rows="10" placeholder="Type something about you"></textarea> <br>
+            <input type="submit" value="Save">
+        </form>   
+    </header>
+    
+</body>
+</html>

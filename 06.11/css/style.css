@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    max-width: 90%;
+    display: block;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 10px 10px;
+    
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    background: rgb(22, 24, 128);
+    border: 2px solid rgb(0, 3, 1);
+    padding: 5px 5px;
+    border-radius: 20px;
+    
+}
+
+nav a:hover {
+    background: rgb(76, 158, 196);
+    color: #000;
+}
+
+
+
+/* Задание */
+
+main {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.445);
+    
+}
+
+main img {
+    width: 100%;
+}
+
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.row {
+    padding: 20px;
+}
+
+
+.column{
+    float: left;
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.column:first-child {
+    padding: 20px 35px 35px 20px;
+}
+
+
+/* Задание */
+
+

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 10px 10px;
+    
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    background: rgb(22, 24, 128);
+    border: 2px solid rgb(0, 3, 1);
+    padding: 5px 5px;
+    border-radius: 20px;
+    
+}
+
+nav a:hover {
+    background: rgb(76, 158, 196);
+    color: #000;
+}
+
+
+/* Задание */
+
+main {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.445);
+    
+}
+
+
+
+main img {
+    width: 100%;
+}
+
+
+.article-columns {
+    display: flex;
+
+}
+
+.main-row {
+  padding: 20px;
+}
+
+.row {
+    padding-left: 20px;
+} 
+
+.left-column {
+    width: 300%;
+    padding-right: 20px;
+}
+
+.column {
+    padding: 20px;
+}
+
+.column:first-child {
+    padding: 20px 30px 30px 20px;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.main-article {
+    padding: 0;
+}
+
+
+
+/* Задание */

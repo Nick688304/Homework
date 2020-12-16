@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 6</title>
+    <link rel="stylesheet" href="./css/6.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Задание 1</a></li>
+                    <li><a href="./2.html">Задание 2</a></li>
+                    <li><a href="./3.html">Задание 3</a></li>
+                    <li><a href="./4.html">Задание 4</a></li>
+                    <li><a href="./5.html">Задание 5</a></li>
+                    <li><a>Задание 6</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="header-top">
+                <h1>Hotel booking</h1>
+            </section>
+
+            <form action="/" method="POST">
+                <section class="section-form">
+                    <div class="label"><label for="name">Name <span>*</span></label></div>
+                    <div class="input">
+                        <div class="name"><input type="text" id="name" required> <br>
+                        <small>First name</small></div>
+                        <div  class="name"><input type="text" id="name" required> <br>
+                        <small>Last name</small></div>
+                    </div>
+                </section>
+                <section class="section-form">
+                    <div class="label"><label for="email">E-mail <span>*</span></label></div>
+                    <div class="input">
+                        <div><input type="email" id="email" placeholder="ex. myemail.mail.com" required> <br>
+                        <small>examle@example.com</small></div>
+                    </div>
+                </section>
+                <section class="section-form">
+                    <div class="label"><label for="room">Room Type</label></div>
+                    <div class="input">
+                        <select name="room" id="room">
+                            <option value="">one single-bed room</option>
+                            <option value="">one double-bed room</option>
+                            <option value="">one withouth-bed room</option>
+                        </select> 
+                    </div>
+                </section>
+                <section class="section-form">
+                    <div class="label"><label for="guests">Number of guests <span>*</span></label></div>
+                    <div class="input">
+                        <input type="number" id="guests" value="0" min="1" max="8" required>
+                    </div>
+                </section>
+                <section class="section-form">
+                    <div class="label"><label for="date-time">Arrival Date & Time <span>*</span></label></div>
+                    <div class="date-time">
+                        <div class="date">
+                            <div class="select">
+                                <div><input type="date" id="date-time" required> </div>
+                            </div> 
+                        </div>
+                        <div class="time">
+                            <div class="select">
+                                <div><select name="hour" id="date-time" required>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                    </select> <br>
+                                <small>Hour</small>
+                                </div>
+                            </div>
+                            <div class="select">
+                                <div><select name="minutes" id="date-time" required>
+                                    <option>00</option>
+                                    <option>30</option>
+                                    <option>45</option>
+                                </select> <br>
+                                <small>Minutes</small></div>
+                            </div>
+                            <div class="select">
+                                <div><select name="ampm" id="date-time">
+                                    <option>AM</option>
+                                    <option>PM</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-form">
+                    <div class="label"><label for="dep-date">Departure Date <span>*</span></label></div>
+                    <div class="select">
+                        <div class="dep-date"><select name="month" id="dep-date" required> 
+                            <option>June</option>
+                            <option>Jule</option>
+                            <option>August</option>
+                        </select> <br>
+                            <small>Month</small></div>
+                        <div class="dep-date"><select name="month" id="dep-date" required> 
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select> <br>
+                            <small>Day</small></div>
+                        <div class="dep-date"><select name="month" id="dep-date" required> 
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>1861</option>
+                        </select> <br>
+                            <small>Year</small></div>
+                    </div>
+                </section>
+                
+                <section class="section-form">
+                    <div class="label"><label for="pickup">Free Pickup? <span>*</span></label></div>
+                    <div class="input radio">
+                        <div><input type="radio" name="pickup" id="pickup" required>Yes, please!</div>
+                        <div><input type="radio" name="pickup" id="pickup" >No, Thanks</div>
+                    </div>
+                </section>
+                <section class="section-form">
+                    <div class="label"><label for="flight">Flight number</label></div>
+                    <div class="input">
+                        <input type="text" id="flight">
+                    </div>
+                </section>
+                <section class="section-form">
+                    <div class="label"><label for="request">Special Requests</label></div>
+                    <div class="input">
+                        <textarea name="request" id="reques" cols="30" rows="10"></textarea>
+                    </div>
+                </section>
+                <input class="submit" type="submit" value="Submit" >
+            </form>
+           
+
+        </main>
+
+
+    </div>
+</body>
+
+</html>

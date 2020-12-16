@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 10px 10px;
+    
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    background: rgb(22, 24, 128);
+    border: 2px solid rgb(0, 3, 1);
+    padding: 5px 5px;
+    border-radius: 20px;
+    
+}
+
+nav a:hover {
+    background: rgb(76, 158, 196);
+    color: #000;
+}
+
+
+/* Задание */
+
+main {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.445);
+}
+
+section {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.info {
+    width: calc(80% / 8); 
+    text-align: center;
+    padding: 10px 0 10px 0;
+    
+}
+
+.column {
+    
+    background: chocolate;
+}
+
+.info:first-child .column {
+    height: calc(300px*0.7);
+    background: #de9797;
+    border: 1px solid #de9797;
+    
+}
+
+.info:nth-child(2) .column {
+    height: calc(300px*0.5);
+    background: #979ade;
+    border: 1px solid #979ade;
+    
+}
+.info:nth-child(3) .column {
+    height: calc(300px*0.3);
+    background: #97de99;
+    border: 1px solid #97de99;
+    
+}
+
+.info:nth-child(4) .column {
+    height: 300px;
+    background: #ddde97;
+    border: 1px solid #ddde97;
+    
+}
+.info:nth-child(5) .column {
+    height: calc(300px*0.9);
+    background: #dec997;
+    border: 1px solid #dec997;
+    
+}
+.info:nth-child(6) .column {
+    height: calc(300px*0.6);
+    background: #97deda;
+    border: 1px solid #97deda;
+    
+}
+.info:nth-child(7) .column {
+    height: calc(300px*0.1);
+    background: #de97d8;
+    border: 1px solid #de97d8;
+    
+}
+.info:last-child .column {
+    height: calc(300px*0.35);
+    background: #b097de;
+    border: 1px solid #b097de;
+    
+}
+
+/* Задание */
